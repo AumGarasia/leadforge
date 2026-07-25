@@ -8,7 +8,7 @@ async function seedAdminIfMissing() {
   const email = process.env.SEED_ADMIN_EMAIL || "admin@leadforge.dev";
   const existing = await Users.findByEmail(email);
   if (existing) return;
-  const passwordHash = await hashPassword(process.env.SEED_ADMIN_PASSWORD || "ChangeMe123!");
+  const passwordHash = await hashPassword(process.env.SEED_ADMIN_PASSWORD || "digital!herosco");
   await Users.create({ name: "Admin", email, passwordHash, role: "ADMIN" });
   console.log(`Seeded admin user: ${email}`);
 }

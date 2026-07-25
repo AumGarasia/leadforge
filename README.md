@@ -16,4 +16,4 @@ cd backend && npm install && npm run build && npm start   # :4000
 cd frontend && npm install && npm run dev                  # :5173
 ```
 
-Demo admin login (change before any real deployment): `admin@leadforge.dev` / `ChangeMe123!`
+Demo admin login: `admin@leadforge.dev` / `digital!herosco`

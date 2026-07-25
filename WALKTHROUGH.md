@@ -17,7 +17,7 @@ On first boot, the backend seeds one admin account:
 
 | Role  | Email                  | Password      |
 |-------|-------------------------|----------------|
-| Admin | `admin@leadforge.dev`   | `ChangeMe123!` |
+| Admin | `admin@leadforge.dev`   | `digital!herosco` |
 
 There's no seeded Member account by default — creating one live from the Team page (Step 4
 below) is itself part of the demo, and it's a more honest way to show the RBAC system than a
